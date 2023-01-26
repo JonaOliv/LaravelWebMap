@@ -1,5 +1,5 @@
 # Touristic Map App Web Design
-Application for helping the tourism in Honduras. Application built with Open Source Libraries.
+Application for helping the tourism in Honduras. Application built with Open Source Libraries. Multi funtional application, with different map providers, Leaflet Library, geolocational concepts, Geonames Database and More.
 
 ## Compiling
 '''
