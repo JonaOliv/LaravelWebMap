@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'App\Http\Controllers\HomeController@home')->name("pages.home");
+Route::get('/home', 'App\Http\Controllers\HomeController@home')->name("pages.home");
+Route::get('/logout', 'App\Http\Controllers\AmenitiesController@amenities')->name("pages.logout");
+Route::get('/amenities', 'App\Http\Controllers\AmenitiesController@amenities')->name("pages.amenities");
+Route::get('/hotels', 'App\Http\Controllers\AmenitiesController@amenities')->name("pages.hotels");
+Route::get('/restaurants', 'App\Http\Controllers\AmenitiesController@amenities')->name("pages.restaurants");
+Route::get('/amenityForm', 'App\Http\Controllers\AmenitiesController@amenities')->name("pages.amenityForm");
+
+
+
