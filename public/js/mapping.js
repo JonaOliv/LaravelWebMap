@@ -845,7 +845,7 @@ $(document).one("ajaxStop", function () {
       displayKey: "name",
       source: geonamesBH.ttAdapter(),
       templates: {
-        header: "<h4 class='typeahead-header'><img src='assets/img/globe.png' width='25' height='25'>&nbsp;GeoNames</h4>",
+        header: "<h4 class='typeahead-header'><img src='img/globe.png' width='25' height='25'>&nbsp;GeoNames</h4>",
         suggestion: Handlebars.compile(["<div>{{name}}</div>"].join(""))
       }
     }
