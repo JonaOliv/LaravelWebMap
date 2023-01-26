@@ -7,7 +7,7 @@ php artisan serve
 '''
 
 ## Funcionalities of the APP
-- Geonames for tracking locations over the map.
+- [Geonames](https://www.geonames.org/) for tracking locations over the map.
 - Leaflet is a leading open-source JavaScript library for mobile-friendly interactive maps.
 - MarkerCluster Leaflet for grouping too many georeferences.
 - Bloodhound a robust, flexible, and offers advanced functionalities such as prefetching, intelligent caching, fast lookups, and backfilling with remote data.
