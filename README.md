@@ -16,4 +16,4 @@ php artisan serve
 - Open Source Map Providers
 
 
-![Screenshots](public/img/beach.jpg?raw=true)
+![Screenshots](public/gifforgithub.gif?raw=true)
